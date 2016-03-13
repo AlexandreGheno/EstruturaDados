@@ -1,0 +1,15 @@
+2016-01-30 17:27:58 ERROR  : ERROR:  operator does not exist: character varying = integer
+LINE 1: select * from adm_forn where nr_end=25
+                                           ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+2016-01-30 17:59:07 ERROR  : ERROR:  syntax error at or near "update"
+LINE 15: update adm_forn set 
+         ^
+2016-01-30 17:59:59 ERROR  : ERROR:  value too long for type character varying(20)
+2016-02-25 10:48:09 ERROR  : ERROR:  operator does not exist: character varying = integer
+LINE 1: select * from adm_prod where cd_produto=12003
+                                               ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+2016-02-25 10:48:49 ERROR  : ERROR:  column "S" does not exist
+LINE 1: select * from adm_prod where fl_ver_est_fisi="S"
+                                                     ^
